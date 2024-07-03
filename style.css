@@ -9,6 +9,21 @@
     color: black;
 }
 
+.col-4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-des {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.product-des ul li {
+    margin-left: 25px;
+    line-height: 2;
+}
+
 .logo img {
     width: 100%;
     height: 150px;
