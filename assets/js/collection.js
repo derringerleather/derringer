@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const selectedCategory = urlParams.get('category');
 
 // Pagination variables
-let itemsPerPage = 16;
+let itemsPerPage = 8;
 let currentPage = 1;
 let totalPages = 4;
 
