@@ -9,11 +9,11 @@ const createHeader = () => {
             </a>
         </div>
         <nav>
+            <a href="collection.html?category=Cowboy%20Hats">Cowboy Hats</a>
+            <a href="collection.html?category=Top%20Hats">Top Hats</a>
             <a href="collection.html?category=Mens%20Jackets">Mens Jackets</a>
             <a href="collection.html?category=Ladies%20Jackets">Ladies Jackets</a>
             <a href="collection.html?category=Ladies%20Vests">Ladies Vests</a>
-            <a href="collection.html?category=Cowboy%20Hats">Cowboy Hats</a>
-            <a href="collection.html?category=Top%20Hats">Top Hats</a>
             <a href="collection.html?category=Ladies%20Bags">Ladies Bags</a>
             <a href="collection.html?category=Vest%20Extenders">Vest Extenders</a>
             <a href="collection.html?category=Wallets">Wallets</a>
