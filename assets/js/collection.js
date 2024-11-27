@@ -13,17 +13,9 @@ async function fetchAndDisplayProducts(category) {
     container.innerHTML = '';
 
     try {
-        // Fetch the Excel file
-        const response = await fetch('assets/excel/products.xlsx');
-        const arrayBuffer = await response.arrayBuffer();
-
-        // Read the Excel file
-        const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-        const firstSheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[firstSheetName];
-
-        // Convert the sheet data to JSON
-        const products = XLSX.utils.sheet_to_json(worksheet);
+        // Fetch the JSON file
+        const response = await fetch('assets/json/products.json');
+        const products = await response.json();
 
         // Filter products by category
         const filteredProducts = products.filter(product => product.category === category);
